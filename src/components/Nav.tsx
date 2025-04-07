@@ -5,6 +5,7 @@ export function Nav(){
         <nav className="nav">
             <Link to ="/">Inicio</Link>
             <Link to ="/about">Sobre</Link>
+            <Link to ="/Login"> Login</Link>
         </nav>
     )
 }
