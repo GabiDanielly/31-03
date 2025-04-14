@@ -6,6 +6,7 @@ export function Nav(){
             <Link to ="/">Inicio</Link>
             <Link to ="/about">Sobre</Link>
             <Link to ="/Login"> Login</Link>
+            <Link to = "/Registro">Registro</Link>
         </nav>
     )
 }

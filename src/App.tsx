@@ -9,6 +9,8 @@ import {Home} from './pages/Home';
 import { About} from './pages/About';
 import { Footer } from './components/Footer';
 import {Login} from './pages/Login';
+import {Registro} from './pages/Registro';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
     <Route path="/" element ={<Home />}/>
     <Route path="/about" element ={<About />}/>
     <Route path="/login" element ={<Login />}/>
+    <Route path ="/Registro" element = {<Registro/>}/>
     </Routes>
     </main>
     <Footer/>
