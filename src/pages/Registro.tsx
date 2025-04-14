@@ -40,8 +40,8 @@ export function Registro(){
                         <td>14:00</td>
                         <td>200,00</td>
                         <td>Pago</td>
-                        <td><button onClick={abrirModalEditar}> Editar</button>
-                        <button onClick ={abrirModalExcluir}>Deletar</button></td>
+                        <td><button id = "btEditDelet" onClick={abrirModalEditar}> Editar</button>
+                        <button id = "btEditDelet" onClick ={abrirModalExcluir}>Deletar</button></td>
                     </tr>
                     <tr>
                     <td>2</td>
@@ -50,8 +50,8 @@ export function Registro(){
                     <td>12:23</td>
                     <td>1500,00</td>
                     <td>Recebido</td>
-                    <td><button onClick={abrirModalEditar}> Editar</button>
-                    <button onClick ={abrirModalExcluir}>Deletar</button></td>
+                    <td><button id = "btEditDelet" onClick={abrirModalEditar}> Editar</button>
+                    <button id = "btEditDelet" onClick ={abrirModalExcluir}>Deletar</button></td>
                     </tr>
                     <tr>
                         <td>3</td>
@@ -60,8 +60,8 @@ export function Registro(){
                         <td>10:30</td>
                         <td>750,00</td>
                         <td>Pago</td>
-                        <td><button onClick={abrirModalEditar}> Editar</button>
-                        <button onClick ={abrirModalExcluir}>Deletar</button> </td>
+                        <td><button id = "btEditDelet" onClick={abrirModalEditar}> Editar</button>
+                        <button id = "btEditDelet" onClick ={abrirModalExcluir}>Deletar</button> </td>
                     </tr>
                     <tr>
                         <td>4</td>
@@ -70,8 +70,8 @@ export function Registro(){
                         <td>9:45</td>
                         <td>650,00</td>
                         <td>Recebido</td>
-                        <td><button onClick={abrirModalEditar}> Editar</button>
-                        <button onClick ={abrirModalExcluir}>Deletar</button></td>
+                        <td><button id = "btEditDelet" onClick={abrirModalEditar}> Editar</button>
+                        <button id = "btEditDelet" onClick ={abrirModalExcluir}>Deletar</button></td>
                     </tr>
                     <tr>
                         <td>5</td>
@@ -80,8 +80,8 @@ export function Registro(){
                         <td>15:27</td>
                         <td>1345,23</td>
                         <td>Pago</td>
-                        <td><button onClick={abrirModalEditar}> Editar</button>
-                        <button onClick ={abrirModalExcluir}>Deletar</button></td>
+                        <td><button id = "btEditDelet" onClick={abrirModalEditar}> Editar</button>
+                        <button  id = "btEditDelet" onClick ={abrirModalExcluir}>Deletar</button></td>
                     </tr>
                     <tr>
                         <td>6</td>
@@ -90,8 +90,8 @@ export function Registro(){
                         <td>12:30</td>
                         <td>850,00</td>
                         <td>Pago</td>
-                        <td><button onClick={abrirModalEditar}> Editar</button>
-                        <button onClick ={abrirModalExcluir}>Deletar</button></td>
+                        <td><button id = "btEditDelet" onClick={abrirModalEditar}> Editar</button>
+                        <button id = "btEditDelet" onClick ={abrirModalExcluir}>Deletar</button></td>
                     </tr>
                 </tbody>
             </table>
